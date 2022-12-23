@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ProfileFragment">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile" />
+    <Button
+        android:id="@+id/btn_profile_to_home"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO To Home"/>
+    <Button
+        android:id="@+id/btn_profile_to_about"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO To About"/>
+    <TextView
+        android:id="@+id/profile_value_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+</LinearLayout>
